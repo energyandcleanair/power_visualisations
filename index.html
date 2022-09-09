@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script> -->
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <input id="copyTextarea" type="hidden"></input>
+
+    <div>
+      <div class="visualisation" id="vis1">
+       <div class="flourish-embed flourish-chart" data-src="visualisation/11136887?896519">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+       </div>
+      </div>
+      <button onclick="copyToClipboard('vis1')">Copy Embed Code</button> 
+    </div>
+
+    <div>
+      <div class="visualisation" id="vis2">
+       <div class="flourish-embed flourish-chart" data-src="visualisation/10934742?896519">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+       </div>
+       </div>
+      <button onclick="copyToClipboard('vis2')">Copy Embed Code</button> 
+    </div>
+  </body>
+</html>
