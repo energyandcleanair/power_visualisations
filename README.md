@@ -1,2 +1,2 @@
-# power_visualisations
-Series of charts related to power generation and capacity
+# Russia visualisations
+See all visualisations here: https://energyandcleanair.github.io/russia_visualisations/index.html
